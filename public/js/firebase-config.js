@@ -4,13 +4,12 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBiiQHFegoav0zZFj_G4fyj246GGirK58c",
-  authDomain: "mylearndeck.firebaseapp.com",
-  projectId: "mylearndeck",
-  storageBucket: "mylearndeck.firebasestorage.app",
-  messagingSenderId: "559957123323",
-  appId: "1:559957123323:web:390401ae4e38867115105e",
-  measurementId: "G-54J4GDF9QB"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project.firebasestorage.app",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
 };
 
 // Initialize Firebase
